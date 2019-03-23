@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "666983592578",
+    "firebase_url": "https://donate4life-83362.firebaseio.com",
+    "project_id": "donate4life-83362",
+    "storage_bucket": "donate4life-83362.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666983592578:android:3e5b7541dcfcc184",
+        "android_client_info": {
+          "package_name": "com.example.donate4life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666983592578-66uij0n97linti6rkpv10pnp79eogu46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donate4life",
+            "certificate_hash": "87216eed1b25c7da54f538f116dcc0e98581333f"
+          }
+        },
+        {
+          "client_id": "666983592578-aotae4a9q5vl7h6dctg6neccf4r994je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqxdQp2TB_Zgns9a3u8e_oBqovW3eQPvY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666983592578-aotae4a9q5vl7h6dctg6neccf4r994je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

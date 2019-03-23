@@ -13,6 +13,8 @@ public class MainActivity extends AppCompatActivity {
 
         Intent i = new Intent(getApplicationContext(), LoginActivity.class);
 //        Intent i = new Intent(getApplicationContext(), AcceptActivity.class);
+//        Intent i = new Intent(getApplicationContext(), DonateActivity.class);
+//        Intent i = new Intent(getApplicationContext(), HomeActivity.class);
         startActivity(i);
         finish();
     }

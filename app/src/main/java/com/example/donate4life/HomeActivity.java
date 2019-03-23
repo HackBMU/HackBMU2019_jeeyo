@@ -31,6 +31,14 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
+        donBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), DonateActivity.class);
+                startActivity(i);
+            }
+        });
+
         sliderAdapter = new SliderAdapter(HomeActivity.this, images);
         viewPager.setAdapter(sliderAdapter);
     }
