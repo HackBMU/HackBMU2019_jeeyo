@@ -7,6 +7,10 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,18 +18,38 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TextRecognition"></activity>
-        <activity android:name=".LeftFoodActivity" />
-        <activity android:name=".BooksActivity" />
-        <activity android:name=".EquipmentsActivity" />
-        <activity android:name=".MoneyActivity" />
-        <activity android:name=".BloodForm" />
-        <activity android:name=".DonateActivity" />
-        <activity android:name=".AcceptActivity" />
+        <activity android:name=".DetailsActivity"
+            android:theme="@style/generalnotitle"></activity>
+        <activity
+            android:name=".TextRecognition"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".LeftFoodActivity"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".BooksActivity"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".EquipmentsActivity"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".MoneyActivity"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".BloodForm"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".DonateActivity"
+            android:theme="@style/generalnotitle" />
+        <activity
+            android:name=".AcceptActivity"
+            android:theme="@style/generalnotitle" />
         <activity
             android:name=".SignUpActivity"
             android:theme="@style/generalnotitle" />
-        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/generalnotitle" />
         <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login"
